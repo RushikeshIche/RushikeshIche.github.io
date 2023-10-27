@@ -3,50 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RushikeshIche</title>
+    <title>Contact Me</title>
 </head>
-<body>
-    <h1>Rushikesh Iche</h1>
-    <a href="https://in.linkedin.com/in/rushikesh-iche-aa395b289"><img src="Rushicrop.png" alt="Rushi" height="100" ></a>
-    <hr>
-    <br>
-    <pre>Hello There I am <strong>Rushikesh Iche</strong>.</pre>
-    <table border="2px">
-        <thead>
-            <tr>
-                <td>Year</td>
-                <td>Work</td>
-            </tr>
-            
-                
-            
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    2023
-                </td>
-                <td>
-                    IIITDM 1st Year
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    2024
-                </td>
-                <td>
-                    IIITDM 2nd Year
-                </td>
+<body style="background-color: rgb(183, 206, 225);">
+    <header >
+
+       <!--  <a href="https://in.linkedin.com/in/rushikesh-iche-aa395b289"><img src="Rushicrop.png" alt="Rushi" height="100" ></a> -->
     
-            </tr>
-        </tbody>
-    </table>
+    <br>
+    <pre style="font-size: 20px;">Great! It will be a Great Talk.</pre>
+    </header>
+    <hr>
+    <form action="index.php" method="post" enctype="multipart/form-data">
+        <label for="name">Your Name:</label>
+        <input id="name" type="text" placeholder="Name" required minlength="5" maxlength="25">
+        <br>
 
-    <footer>
-        <h4>&copy; 2023 Rushikesh Iche</h4>
-        <h5 ><a href="https://in.linkedin.com/in/rushikesh-iche-aa395b289">linkedin</a></h5>
-        <h5 ><a href="contactme.html">Contact Me</a></h5>
+        <br>
+        <label for="email">Your Email:</label>
+        <input type="email" placeholder="something@gmail.com" id="email">
+        <br>
 
-    </footer>
+        <br>
+        <label for="phone">Your Phone(Optional):</label>
+        <input type="tel" placeholder="1234567890" pattern="[0-9]{10} "   id="phone">
+        <br>
+
+        <br>
+        <label for="comment">Comment:</label>
+        <textarea id="comment" cols="15" rows="1"></textarea>
+
+        <br>
+
+        <br>
+
+
+        
+      <!--   <input type="color"> -->
+        <input type="reset">
+        <input type="submit">
+
+        
+    </form>
+
 </body>
 </html>
