@@ -5,14 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
 </head>
-<body>
-    <form action="mailto:mypcforpy@gmail.com">
-        <label for="">Your Name:</label>
-        <input type="text">
-        <input type="email">
-        <textarea name="message" id="" cols="30" rows="10"></textarea>
+<body style="background-color: rgb(183, 206, 225);">
+    <header >
+
+       <!--  <a href="https://in.linkedin.com/in/rushikesh-iche-aa395b289"><img src="Rushicrop.png" alt="Rushi" height="100" ></a> -->
+    
+    <br>
+    <pre style="font-size: 20px;">Great! It will be a Great Talk.</pre>
+    </header>
+    <hr>
+    <form action="index.php" method="post" enctype="multipart/form-data">
+        <label for="name">Your Name:</label>
+        <input id="name" type="text" placeholder="Name" required minlength="5" maxlength="25">
+        <br>
+
+        <br>
+        <label for="email">Your Email:</label>
+        <input type="email" placeholder="something@gmail.com" id="email">
+        <br>
+
+        <br>
+        <label for="phone">Your Phone(Optional):</label>
+        <input type="tel" placeholder="1234567890" pattern="[0-9]{10} "   id="phone">
+        <br>
+
+        <br>
+        <label for="comment">Comment:</label>
+        <textarea id="comment" cols="15" rows="1"></textarea>
+
+        <br>
+
+        <br>
+
+
+        
       <!--   <input type="color"> -->
-        <button type="submit">submit</button>
+        <input type="reset">
+        <input type="submit">
+
+        
     </form>
 
 </body>
