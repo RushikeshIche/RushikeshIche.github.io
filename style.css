@@ -1,0 +1,20 @@
+@font-face {
+    
+    src: url(Fonts\Exo_2\static\Exo2-Regular.ttf);
+    font-family: Exo2-Regular;
+}
+header{
+    display: flow-root;
+    margin-top: auto;
+    background-color: aquamarine;
+    border: 1px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+
+
+
+}
+#mainshadow{
+    text-shadow: 3px 3px 4px rgb(238, 3, 255)/* ,(-3px -3px 5px blueviolet) */;
+}
